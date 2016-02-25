@@ -1,0 +1,80 @@
+
+.check-in-container {
+  background: url(./images/rose-galaxy.jpg)no-repeat center center fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+.check-in-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;;
+  flex-direction: column;
+  flex-wrap: no-wrap;
+  height: 100vh;
+
+}
+
+.check-in-title {
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.check-in-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20rem;
+
+}
+
+
+
+
+input[type="text"], textarea {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  border-bottom: 3px solid white;
+  font-size: 1.5rem;
+  height: 4rem;
+
+
+
+}
+
+::placeholder {
+  color: white;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+
+}
+
+select {
+  border: none;
+  border-bottom: 3px solid white;
+  width: 18.5rem;
+  height: 4rem;
+  background-color: transparent;
+  text-align:left;
+  font-size: 1.5rem;
+  color:  white;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  outline: 0;
+
+}
+
+.click-check-in {
+  margin-top: 5rem;
+  font-size: 2rem;
+  background-color: transparent;
+  color: white;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+
+}
+.click-check-in {
+  cursor: pointer;
+}

@@ -3,10 +3,10 @@
 
   angular
     .module('red')
-    .controller('MainController', MainController);
+    .controller('ReportCtrl', ReportCtrl);
 
   /** @ngInject */
-  function MainController($scope) {
+  function ReportCtrl($scope) {
       this.online = true;
       $scope.description = 'Angular Seed Application';
   }

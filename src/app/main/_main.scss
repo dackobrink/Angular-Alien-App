@@ -1,0 +1,40 @@
+// body {
+//   background: url(./images/star-surfer.jpg);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
+
+.entrance-container {
+  display: flex;
+  height: 100vh;
+background: url(./images/star-surfer.jpg)no-repeat center center fixed;
+
+}
+
+.entrance-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.entrance-title {
+  color: white;
+  font-size: 6rem;
+}
+
+.entrance-direct {
+  color: white;
+  font-size: 3rem;
+}
+
+.entrance-button {
+  border-color: white;
+  color: white;
+  height: 2rem;
+  width: 2rem;
+  z-index: 1;
+
+}

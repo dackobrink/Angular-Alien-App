@@ -27,7 +27,8 @@
     <!-- run `gulp inject` to automatically populate bower styles dependencies -->
     <!-- endbower -->
     <!-- endbuild -->
-
+<!-- <a ui sref="check-in"></a> -->
+<a ui sref=""
     <!-- build:css({.tmp/serve,src}) styles/app.css -->
     <!-- inject:css -->
     <!-- css files will be automatically insert here -->
@@ -40,8 +41,12 @@
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-
+    <a ui-sref="check-in">Check-in page</a> |
+    <a ui-sref="encounters">Encounters page</a> |
+    <a ui-sref="report">Report page</a> |
+    <a ui-sref="report-filed">Report filed page </a>
     <div ui-view class="site-container"></div>
+
 
     <!-- build:js(src) scripts/vendor.js -->
     <!-- bower:js -->

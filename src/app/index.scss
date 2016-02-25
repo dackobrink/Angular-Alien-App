@@ -4,6 +4,10 @@
  */
 // bower:scss
 // endbower
+@import "./main/main";
+@import "./check-in/check-in";
+@import "./encounters/encounters";
+@import "./report/report";
 
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700,700italic,400italic);
 
@@ -30,7 +34,7 @@ html, body {
 }
 
 .welcome {
-	
+
 	height: 100vh;
 
 	display:flex;
@@ -40,7 +44,7 @@ html, body {
 
 	img { width: 42%; }
   h1  { text-align:center; }
-  
+
 }
 
 /**
