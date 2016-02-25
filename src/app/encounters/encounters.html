@@ -1,15 +1,19 @@
-<div class="encounters-page">
-  <div class="encounters-title">
-    <h1>extraterrestrial encounters</h1>
-    <p>State your intergalaction experienece</p>
+<div class="encounters-container">
+  <div class="encounters-page">
+    <div class="encounters-title">
+      <h1>extraterrestrial encounters</h1>
+      <p>State your intergalaction experienece</p>
+    </div>
+    <div class="encounters-data">
+      <ul class="encounters-list">
+        <li ng-repeat="encounter in encounters">
+          <span>{{encounter.data}} - {{encounter.atype}}</span> <br/>
+           <span class="action">{{encounter.action}}</span>
+        </li>
+      </ul>
   </div>
-  <ul class="encounters-list">
-    <li ng-repeat="encounter in encounters">
-      <span>{{encounter.data}} - {{encounter.atype}}</span> <br/>
-      Action taken --> <span class="action">{{encounter.action}}</span>
-    </li>
-  </ul>
-  <footer class="encounters-click">
-    <div class="button">Ellaborate</div>
-  </footer>
+    <footer class="encounters-click">
+      <div class="button">Ellaborate</div>
+    </footer>
+  </div>
 </div>

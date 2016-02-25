@@ -1,0 +1,43 @@
+.encounters-container {
+  background: url(./images/cosmic-blue.jpg)no-repeat center center fixed;
+  width: 100vw;
+  height: 100vh;
+  width: 100vw;
+  height: 100vh;
+}
+
+.encounters-page {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  position: relative;
+  min-height: 100%;
+}
+
+.encounters-title {
+  text-align: center;
+}
+
+.encounters-data {
+  ul {
+    overflow: scroll;
+    height: 50vh;
+    width: 70vw;
+    background-color: transparentize(#1076AD , .4);  /// (hexcode, 0-1 integer)
+    margin-left: 1.5rem;
+  }
+
+  li {
+      list-style: none;
+      padding: 1rem;
+  }
+}
+
+.encounters-click {
+  position: absolute;
+   left: 0;
+   bottom: 0;
+   height: 100px;
+   width: 100%;
+   text-align: center;
+}
