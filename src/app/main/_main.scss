@@ -31,10 +31,8 @@ background: url(./images/star-surfer.jpg)no-repeat center center fixed;
 }
 
 .entrance-button {
-  border-color: white;
-  color: white;
   height: 2rem;
   width: 2rem;
-  z-index: 1;
-
+  background-color: transparentize(#70070b , .4);  /// (hexcode, 0-1 integer)
+  cursor: pointer;
 }

@@ -24,7 +24,8 @@
     height: 50vh;
     width: 70vw;
     background-color: transparentize(#1076AD , .4);  /// (hexcode, 0-1 integer)
-    margin-left: 1.5rem;
+    margin-left: 2.5rem;
+    flex: 1;
   }
 
   li {
@@ -34,7 +35,7 @@
 }
 
 .encounters-click {
-  position: absolute;
+  flex: 0.5;
    left: 0;
    bottom: 0;
    height: 100px;
