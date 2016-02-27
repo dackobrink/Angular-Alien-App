@@ -3,15 +3,14 @@
       <header class="check-in-title">
         <h1>Register</h1>
       </header>
-    <form class="check-in-form">
+    <form class="check-in-form" name="checkInForm">
         <label for=""></label>
           <input type="text" placeholder="Name" ng-model="colonist.name"/>
           <label for=""></label>
             <input type="text" placeholder= "Age" ng-model="colonist.age"/>
           <select name="jobs" id="jobs" ng-model="colonist.job_id">
             <option value=""> --Select Occupation-- </option>
-            <option value ="" ng-repeat="jobs in jobs"></option>
-            <option value="{{job.id}}" ng-repeat="job in jobs">{{job.name}}></option>
+            <option value="{{job.id}}" ng-repeat="job in jobs">{{job.name}}</option>
           </select>
         <button class="click-check-in" ng-click="login($event)">Check in</button>
     </form>

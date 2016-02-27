@@ -26,7 +26,7 @@
 $scope.showValidation = false;
 $scope.login = function (event){
   event.preventDefault();
-  if($scope.checkinForm.$invalid){
+  if($scope.checkInForm.$invalid){
     $scope.showValidation=true;
   } else {
   $http({

@@ -4,34 +4,57 @@
 }
 
 [ui-view].ng-enter, [ui-view].ng-leave {
-  transition: all 10s ease-in-out
+  transition: all 2s ease-in-out;
   position: absolute;
   left: 0;
+  top: 0;
   right: 0;
-
-
 }
+
 
 [ui-view].ng-enter {
-  .home &
+  .home & {
   opacity: 0;
   left: 300px;
+  }
+
+  .check-in & {
+    opacity: 0;
+    right: 300px;
+  }
+
 }
 
+
 [ui-view].ng-leave {
-  .home &
+  .home & {
   opacity: 1;
   left: 0;
+  }
+
+  .check-in & {
+    opacity: 0;
+    transition: all .1s ease-out;
+  }
 }
 
 [ui-view].ng-enter-active {
-  .home &
+  .home & {
   opacity: 1;
   left: 0;
+  }
+
+  .check-in & {
+    opacity: 1;
+    left: 0;
+  }
+
+
 }
 
 [ui-view].ng-leave-active {
-  .home &
+  .home & {
   opacity: 0;
   left: 300px;
+  }
 }
