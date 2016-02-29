@@ -1,0 +1,46 @@
+.report-container {
+  background: url(./images/ajna-cosmic.jpg)no-repeat center center fixed;
+}
+
+.report-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 100%
+}
+
+.report-title {
+  text-align: center;
+
+  p {
+    font-size: 1rem;
+  }
+
+}
+
+.report-form {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+
+}
+//
+// #aliens {
+//   width: 100 vw;
+// }
+
+.report-form input {
+  background-color:  transparentize(#4B0082 , .7);
+  height: 50vh;
+  outline: none;
+  border: none;
+}
+
+.report-click {
+  background-color: transparent;
+  margin-top: 4rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size:2rem;
+}

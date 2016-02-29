@@ -10,11 +10,11 @@
         <select name="aliens" id="aliens" ng-model="encounter.atype">
             <option value=""> Select Alien Type</option>
             <!-- <option value = ""></option> -->
-            <option value = "{{ alien.type }}" ng-repeat= "alien in aliens"> {{ alien.type}} </option>
+            <option value = "{{ alien.type }}" ng-repeat= "alien in aliens"> {{ alien.type }} </option>
 
 
-        <input type="textarea" placeholder="Action Taken" ng-model="encounter.action"/>
-        <button class="click-report" ng-click="submitReports($event)">Report</button>
+        <input type="textarea" placeholder="Action Taken" id rows="10" ng-model="encounter.action"/>
+        <button class="report-click" ng-click="submitReports($event)">Report</button>
     </form>
   </div>
 </div>

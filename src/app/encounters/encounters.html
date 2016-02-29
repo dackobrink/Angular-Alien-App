@@ -3,17 +3,17 @@
     <header class="encounters-title">
       <h1>extraterrestrial encounters</h1>
       <p>State your intergalaction experienece</p>
-    </div>
     <div class="encounters-data">
       <ul class="encounters-list">
         <li ng-repeat="encounter in encounters">
           <span>{{encounter.data}} - {{encounter.atype}}</span> <br/>
            <span class="action">{{encounter.action}}</span>
+      </div>
         </li>
       </ul>
-  </div>
+
     <footer class="encounters-click">
       <div class="button" ng-click="reportEncounters($event)">Ellaborate</div>
     </footer>
-  </div>
+    </div>
 </div>
