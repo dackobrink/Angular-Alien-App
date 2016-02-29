@@ -11,7 +11,14 @@
 
 .encounters-title {
   text-align: center;
+  font-family: 'Roboto Slab', serif;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #1076AD, 0 0 70px #1076AD, 0 0 80px #1076AD, 0 0 100px #1076AD, 0 0 150px #1076AD;
+  p {
+    font-size: 0.8rem;
+  }
+
 }
+
 
 .encounters-data {
   ul {
@@ -20,11 +27,13 @@
     width: 100vw;
     background-color: transparentize(#1076AD , .4);  /// (hexcode, 0-1 integer)
     flex:  1;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.8rem;
   }
 
   li {
       list-style: none;
-      padding: 1rem;
+      padding: 0.4rem;
   }
 }
 
@@ -36,4 +45,7 @@
    width: 100%;
    text-align: center;
    cursor: pointer;
+   font-family: 'Roboto Slab', serif;
+   padding-left: 1rem;
+   font-size: 2rem;
 }

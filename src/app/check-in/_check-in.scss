@@ -17,10 +17,9 @@
 
 .check-in-title {
   text-align: center;
-  color: white;
+  color: black;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
-  padding-bottom: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .check-in-form {
@@ -28,7 +27,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20rem;
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
 
 }
 
@@ -40,29 +40,31 @@ input[type="text"], textarea {
   border: 0;
   outline: 0;
   border-bottom: 3px solid white;
-  font-size: 1.5rem;
+  font-size: 1rem;
   height: 4rem;
-
-
+  font-family: 'Ubuntu', sans-serif;
+  background-color:  transparentize(#4B0082 , .7);
+  color: white;
 }
 
 ::placeholder {
   color: white;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  font-family: 'Ubuntu', sans-serif;
 
 }
 
 select {
   border: none;
   border-bottom: 3px solid white;
-  width: 18.5rem;
+  width: 12rem;
   height: 4rem;
   background-color: transparent;
   text-align:left;
-  font-size: 1.5rem;
-  color:  black;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  font-size: 1rem;
   outline: 0;
+  font-family: 'Ubuntu', sans-serif;
+  background-color:  transparentize(#4B0082 , .7);
+  color: white;
 
 }
 
@@ -70,8 +72,8 @@ select {
   margin-top: 5rem;
   font-size: 2rem;
   background-color: transparent;
-  color: white;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
   cursor: pointer;
   outline: none;
+  font-family: 'Roboto Slab', serif;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
 }
